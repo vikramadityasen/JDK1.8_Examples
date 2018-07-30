@@ -22,6 +22,6 @@ public class DuplicateWord {
 				wordMap.put(word, word);
 			}
 		}
-		wordMap.forEach((k, v) -> System.out.print(v+" "));
+		wordMap.forEach((k, v) -> System.out.print(v + " "));
 	}
 }
